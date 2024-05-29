@@ -4,7 +4,7 @@ return [
     'components' => [
         'db' => [
             'class' => \yii\db\Connection::class,
-            'dsn' => 'mysql:host=localhost;dbname=evita',
+            'dsn' => 'mysql:host=prod_dbms;dbname=evita',
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',
